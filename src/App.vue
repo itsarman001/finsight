@@ -1,8 +1,7 @@
 <script setup>
-import InvoiceTemplate from './components/InvoiceTemplate.vue'
+import { Layout } from "./components/index";
 </script>
 
 <template>
-<InvoiceTemplate/>
+  <Layout />
 </template>
-
