@@ -1,7 +1,7 @@
-<script setup>
-import { Layout } from "./components/index";
+<script setup lang="ts">
+import GsapFromTo from "./components/GsapFromTo.vue";
 </script>
 
 <template>
-  <Layout />
+  <GsapFromTo />
 </template>
