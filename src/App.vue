@@ -1,7 +1,9 @@
 <script setup lang="ts">
-import GsapFromTo from "./components/GsapFromTo.vue";
+import MainLayout from "./layout/Layout.vue";
 </script>
 
 <template>
-  <GsapFromTo />
+  <MainLayout>
+    <router-view />
+  </MainLayout>
 </template>
