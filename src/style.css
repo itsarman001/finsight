@@ -111,6 +111,7 @@ body {
   border-radius: var(--radius);
   padding: calc(var(--spacing) * 1.5);
   min-height: 70vh;
+  overflow: hidden;
 }
 
 /* Footer */
